@@ -587,4 +587,17 @@ table th {
     .menu-spacing {
         display: none;
     }
+
+    .space {
+        display: block;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .form-group {
+        min-width: 20rem;
+    }
+
+
 }
