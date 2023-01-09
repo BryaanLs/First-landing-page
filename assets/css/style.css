@@ -524,8 +524,10 @@ table th {
 
     .gallery-img img {
         width: 100%;
-        max-width: 100%;
-        max-height: 100%;
+    }
+
+    .grid-content {
+        display: block;
     }
 
     .menu {
