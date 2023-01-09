@@ -608,7 +608,7 @@ table th {
 
     }
 
-    .grade {
+    .grade-mobile {
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }
