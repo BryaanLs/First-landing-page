@@ -518,8 +518,8 @@ table th {
 
     .gallery-img {
         width: 100%;
-        max-width: 16rem;
-        max-height: 16rem;
+        max-width: 100%;
+        max-height: 100%;
     }
 
     .gallery-img img {
@@ -601,5 +601,15 @@ table th {
         min-width: 20rem;
     }
 
+    .gallery-img {
+        width: 100%;
+        max-width: 16rem;
+        max-height: 16rem;
 
+    }
+
+    .grade {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
 }
